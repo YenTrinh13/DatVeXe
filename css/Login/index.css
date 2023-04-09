@@ -1,0 +1,103 @@
+body{
+    /* background-image: url(http://localhost:81/HelloPHP/images/Login/landscape-g32c0cd4bf_1920.jpg); */
+    background-image: linear-gradient(160deg,#c5f9d7,#f7d486,#f27a7d);
+    background-repeat: no-repeat;
+    background-size: 100% 45em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fr_DN{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 70%;
+    margin-top: 9em;
+    border-radius: 1em;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#khung{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 30em;
+}
+#khunghinh{
+    background-color: white;
+    width: 6.5em;
+    height: 6.5em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    margin-top: 5em;
+    border: 1px solid black;
+}
+#Dangnhap{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ip{
+   border: none; 
+   border-left: 1px solid #6c757d;
+   padding-left: 0.5em;
+   width: 80%;
+   font-size: 1.2em;
+}
+/* .ip::placeholder{
+    font-size: 1.2em;
+} */
+.ip:focus { 
+    outline: none !important;
+}
+.div{
+    display: flex;
+    background-color: white;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img{
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+}
+#btn_dn {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#btn_dn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#btn_dn:active {
+  transform: scale(0.95);
+}

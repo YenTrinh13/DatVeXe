@@ -1,0 +1,81 @@
+body{
+    /* background-image: url(http://localhost:81/HelloPHP/images/Login/landscape-g32c0cd4bf_1920.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    background-image: linear-gradient(160deg,#c5f9d7,#f7d486,#f27a7d);
+}
+#body{
+    /* background-color: red; */
+    height: 41em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#khung{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.thongtin{
+    display: flex;
+    align-items:center;
+}
+.thongtin > p{
+    width: 8em;
+}
+#khungcot{
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    width: 2em;
+    margin-inline-start: inherit;
+    border-width: 1.5px;
+}
+#d1{
+    width: 6em;
+}
+#d1 >p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#dangky {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+#dangky:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+#dangky:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.thongtin > p{
+    font-size: 1.1em;
+}
+.thongtin > input{
+    padding: 0.5em;
+    width: 15em;
+}
